@@ -3,3 +3,5 @@ The Raspberry Pi (http://www.raspberrypi.org) is a low cost, credit-card sized c
 In this workshop, you will:
 - learn the fundamentals of using a Raspberry Pi (booting up your Pi, usingthe Linux command prompt, remotely logging into your Pi, etc.)
 - wire up simple circuits using a breadboard (no previous experiencerequired)- write and run simple Python scripts that will run on a Pi (no previousexperience required)- build multiple live Internet of Things projects that stream data to a cloudservice
+
+[Part 1: Unboxing & Setup >>](Part 1. Unboxing & Setup)
