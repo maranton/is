@@ -22,4 +22,4 @@ Here is a list of all the equipment that we'll be using in this workshop with so
 - **Wireless Keyboard / Mouse**
     ([http://www.amazon.com/Logitech-Wireless- Combo-MK270-Keyboard/dp/B00BP5KOPA](http://www.amazon.com/Logitech-Wireless- Combo-MK270-Keyboard/dp/B00BP5KOPA))
     
-[<< Introduction](PiOT 101 Introductory Workshop for the Raspberry Pi + Internet of Things) - [Part 1: Unboxing to Power-On](Part-1.-Unboxing-to-Power-On)
+[<< Introduction](PiOT 101 Introductory Workshop for the Raspberry Pi + Internet of Things) - [Part 1: Unboxing to Power-On >>](Part-1.-Unboxing-to-Power-On)
