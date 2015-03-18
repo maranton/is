@@ -59,4 +59,4 @@ Go back to your Initial State account in your web browser and look for a new dat
 ![Example temperature output in Lines](img/example-temperature-output.png)
 
 
-[<< Part 4: Initial State](Part-4.-Initial-State) - [Part 5: Magnetic Contact Switch](Part-5.-Magnetic-Contact-Switch)
+[<< Part 4: Initial State](Part-4.-Initial-State) - [Part 5: Magnetic Contact Switch >>](Part-5.-Magnetic-Contact-Switch)
