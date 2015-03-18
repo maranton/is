@@ -8,4 +8,7 @@ At the bottom of the installation progress screen, you can select the language a
 
 ![Rasberrpy Pi 2 + MicroSD Card](img/IMG_3893.JPG)
 
+###Step 10: Starting the GUI
+Once your Pi has completed the Raspbian installation, it will boot to a command prompt. By default, the administrator username is `pi` and the password is `raspberry`. If prompted, enter the username/password. Once at a command prompt, type `startx` and hit enter to start the GUI.
+
 [<< Part 1: Unboxing to Power-On](Part-1.-Unboxing-to-Power-On) - [Part 1: LCD Setup >>](Part-1.-LCD-Setup)
