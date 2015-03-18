@@ -40,4 +40,4 @@ Pressing the button over and over should result in a 1 and a 0 being printed to 
 
 To stop the script, press `CTRL`+`c`.
 
-[<< Step 3: Input Button](Step-3.-Input-Button) - [Step 3: Adding an LED >>](Step-3.-Adding-an-LED)
+[<< Part 3: Input Button](Part-3.-Input-Button) - [Part 3: Adding an LED >>](Part-3.-Adding-an-LED)
