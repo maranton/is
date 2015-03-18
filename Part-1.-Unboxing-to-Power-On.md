@@ -26,4 +26,4 @@ Plug in the MicroUSB power supply into the Pi to turn it on.
 
 ![Rasberrpy Pi 2 + MicroSD Card](img/IMG_3895.JPG)
 
-[<< Part 1: Equipment](Part-1.-Equipment) - [Part 1: Initial Setup](Part-1.-Initial-Setup)
+[<< Part 1: Equipment](Part-1.-Equipment) - [Part 1: Initial Setup >>](Part-1.-Initial-Setup)
