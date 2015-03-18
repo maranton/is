@@ -11,4 +11,4 @@ This Section will cover:
 - [A Live Security Data Stream](Part-5.-A-Live-Security-Data-Stream)
 
 
-[<< Part 4: A Live IoT Data Stream](Part-4.-A-Live-IoT-Data-Stream) - [Part 5: Hardware Setup](Part-5.-Hardware-Setup)
+[<< Part 4: A Live IoT Data Stream](Part-4.-A-Live-IoT-Data-Stream) - [Part 5: Hardware Setup >>](Part-5.-Hardware-Setup)
