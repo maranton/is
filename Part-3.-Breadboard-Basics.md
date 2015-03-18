@@ -4,4 +4,4 @@ A breadboard allows you to wire up circuits by plugging in components and wires 
 
 The breadboard used in this workshop has a breakout board attached to it that a ribbon cable will be plugged into. This connects the input/output (I/O) pins of the Pi to our breadboard with easy-to-read labels. This particular breakout board routes the voltage and ground lines to the outer two columns of the breadboard – a nice convenience.
 
-[<< Part 3. Buttons & Lights](Part-3.-Buttons-&-Lights) - [Part 3. Input Button](Part-3.-Input-Button)
+[<< Part 3. Buttons & Lights](Part-3.-Buttons-&-Lights) - [Part 3. Input Button >>](Part-3.-Input-Button)
