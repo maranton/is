@@ -5,4 +5,4 @@ This is a hub for tutuorials on learning how to get going on a Raspberry Pi and 
 
 This repository contains the following courses:
 
-- [**PiOT 101**: Introductory Workshop for the Raspberry Pi + Internet of Things](/InitialState/piot/wiki/Introduction-to-the-Workshop)
+- [**PiOT 101**: Introductory Workshop for the Raspberry Pi + Internet of Things](/InitialState/piot/wiki/PiOT 101 Introductory Workshop for the Raspberry Pi + Internet of Things)
