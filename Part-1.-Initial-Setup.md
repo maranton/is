@@ -8,4 +8,4 @@ At the bottom of the installation progress screen, you can select the language a
 
 ![Rasberrpy Pi 2 + MicroSD Card](img/IMG_3893.JPG)
 
-[<< Part 1: Unboxing to Power-On](Part-1.-Unboxing-to-Power-On) - [Part 1: LCD Setup](Part-1.-LCD-Setup)
+[<< Part 1: Unboxing to Power-On](Part-1.-Unboxing-to-Power-On) - [Part 1: LCD Setup >>](Part-1.-LCD-Setup)
