@@ -18,4 +18,4 @@ When we press the button, the circuit that connects the 3.3V line into pin 23 wi
 
 > Tip: There is a guide inside your Canakit box that shows you how to read resistor values from the color-coding.
 
-[<< Step 3: Breadboard Basics](Step-3.-Breadboard-Basics) - [Step 3: Reading the Button >>](Step-3.-Reading-the-Button)
+[<< Part 3: Breadboard Basics](Part-3.-Breadboard-Basics) - [Part 3: Reading the Button >>](Part-3.-Reading-the-Button)
