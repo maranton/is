@@ -2,7 +2,7 @@
 
 In order to remotely log into your Pi from your laptop, you will need your Pi’s IP address. Go to your Pi’s command prompt by clicking on the LXTerminal icon at the top toolbar. Enter the command:
 
-```bash
+```
 $ hostname -I
 ```
 
@@ -10,13 +10,13 @@ The IP address will be returned to the screen. Write your IP address down for us
 
 We are going to communicate with our Pi through an SSH connection from our Laptop for the rest of this workshop. SSH stands for Secure Shell and allows us to remotely log into our Pi and control it. On your laptop, open a command prompt. Replace the “#.#.#.#” with your Pi’s IP address and enter the command:
 
-```bash
+```
 $ ssh pi@#.#.#.#
 ```
 
 This will attempt to connect to your Pi through the specified IP address and login with the username ‘pi’. The first time you login to your Pi, you will receive a message similar to the following:
 
-```bash
+```
 $ ssh pi@10.1.101.91
 The authenticity of host '10.1.101.91 (10.1.101.91)'
  can't be established. RSA key fingerprint is
@@ -29,7 +29,7 @@ Enter `yes`, then enter your password.
 
 If successful, you will see something similar to the following on your screen:
 
-```bash
+```
 Linux raspberrypi 3.18.5-v7+ #225 SMP PREEMPT Fri Jan 30 18:53:55 GMT 2015 armv7l
 The programs included with the Debian GNU/Linux system are free software; the exact distribution terms for each program are described in theindividual files in /usr/share/doc/*/copyright.
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent permitted by applicable law.Last login: Wed Feb 25 22:24:20 2015 from 10.0.0.41pi@raspberrypi ~ $
