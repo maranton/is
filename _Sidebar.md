@@ -14,7 +14,7 @@
     - [Input Button](Part-3.-Input-Button)
     - [Reading The Button](Part-3.-Reading-the-Button)
     - [Adding an LED](Part-3.-Adding-an-LED)
-- [**Part 4**](Part-4.-IoT-Temperature-Sensor)
+- [**Part 4**: IoT Temperature Sensor](Part-4.-IoT-Temperature-Sensor)
     - [Hardware Setup](Part-4.-Hardware-Setup)
     - [Making Sure the DS18B20 Works](Part-4.-Making-Sure-the-DS18B20-Works)
     - [Initial State](Part-4.-Initial-State)
