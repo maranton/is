@@ -9,4 +9,4 @@
 - [LCD Setup](Part 1. LCD Setup)
 
 
-[<< Introduction to the Workshop](PiOT 101 Introductory Workshop for the Raspberry Pi + Internet of Things) - [Part 1: Equipment >>](Part 1. Equipment)
+[<< Introduction to the Workshop](Home) - [Part 1: Equipment >>](Part 1. Equipment)
