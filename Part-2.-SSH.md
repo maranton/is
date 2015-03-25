@@ -2,7 +2,7 @@
 
 In order to remotely log into your Pi from your laptop, you will need your Pi’s IP address. 
 
-### 1. Get IP Address of Pi
+### Step 1: Get IP Address of Pi
 Go to your Pi’s command prompt by clicking on the LXTerminal icon at the top toolbar. Enter the command:
 
 ```
@@ -11,14 +11,14 @@ $ hostname -I
 
 The IP address will be returned to the screen. Write your IP address down for use throughout this workshop. In the screenshot above, the Pi’s IP address is 10.1.101.91.
 
-###2. Setup SSH
+### Step 2: Setup SSH
 
 We will be using the `ssh` protocol to communicate with our Pi over the local network.
 > SSH stands for Secure Shell and allows us to remotely log into our Pi and run commands.
 
 If you're on Linux of Mac, the `ssh` tool comes standard. If you're on Windows, you'll need a client. We recommend [Putty](http://www.putty.org/) which can be downloaded from putty.org.
 
-###3. (Lunix/Mac) SSH
+### Step 3: (Lunix/Mac) SSH
 
 ####a. Open a Terminal
 On your laptop, open up your favorite terminal (if you don't have a favorite, just use the built in Terminal app).
@@ -48,7 +48,7 @@ Enter `yes`, then enter your password.
 
 After you get here, you can skip to **After connecting**.
 
-###3. (Windows) SSH with PuTTY
+### Step 3: (Windows) SSH with PuTTY
 
 ####a. Install PuTTY
 If you do not have PuTTY or a similar tty application for Winodws, you'll need to install it from http://www.putty.org/
@@ -74,7 +74,7 @@ After connecting, you should see a terminal-like window similar to the following
 
 >image sourced from [adafruit](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-6-using-ssh/ssh-under-windows)
 
-###After connecting
+### Step 4: After connecting
 If successful, you will see something similar to the following on your screen:
 
 ```
