@@ -8,11 +8,24 @@ $ nano button.py
 **button.py**
 
 ```python
-#Import library that lets you control the Pi's GPIO pinsimport RPi.GPIO as GPIO# Disable messages about GPIO pins already being in useGPIO.setwarnings(False)# Numbering scheme that corresponds to breakout board and pin layout 
-GPIO.setmode(GPIO.BCM)pinNumBTN = 23GPIO.setup(pinNumBTN,GPIO.IN) # Specify that pinNumBTN will be an input prevInput = 0while True:    # Get the state of the button input
-    btnInput = GPIO.input(pinNumBTN)
-    if (btnInput != prevInput):        # When the button changes state, print its value        print btnInput
-        prevInput = btnInput
+#Import library that lets you control the Pi's GPIO pins
+import RPi.GPIO as io
+
+# Disable messages about GPIO pins already being in use
+io.setwarnings(False)
+# Numbering scheme that corresponds to breakout board and pin layout 
+io.setmode(io.BCM)
+
+button_io_pin = 23
+io.setup(button_io_pin, io.IN) # Specify that button_io_pin will be an input prevInput = 0
+
+while True:
+    # Get the state of the button input
+    button_input = io.input(button_io_pin)
+    if (button_input != prevInput):
+        # When the button changes state, print its value
+        print button_input
+        prevInput = button_input
 ```
 
 The lines that begin with ‘#’ are comment lines, a great way to document code. This script imports a special library, RPi.GPIO, that allows you to read and write the Pi’s I/O pins. We set the input button to pin 23 on line 9, which matches our breadboard circuit. Pin 23 is set to an input pin on line 10. The “while loop” on line 13 will run until you kill the script and read the state of pin 23 and print its value only when it changes.
