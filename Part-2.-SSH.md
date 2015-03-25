@@ -1,6 +1,9 @@
 ![LX Terminal](img/IMG_3897.JPG)
 
-In order to remotely log into your Pi from your laptop, you will need your Pi’s IP address. Go to your Pi’s command prompt by clicking on the LXTerminal icon at the top toolbar. Enter the command:
+In order to remotely log into your Pi from your laptop, you will need your Pi’s IP address. 
+
+### 1. Get IP Address of Pi
+Go to your Pi’s command prompt by clicking on the LXTerminal icon at the top toolbar. Enter the command:
 
 ```
 $ hostname -I
@@ -8,13 +11,29 @@ $ hostname -I
 
 The IP address will be returned to the screen. Write your IP address down for use throughout this workshop. In the screenshot above, the Pi’s IP address is 10.1.101.91.
 
-We are going to communicate with our Pi through an SSH connection from our Laptop for the rest of this workshop. SSH stands for Secure Shell and allows us to remotely log into our Pi and control it. On your laptop, open a command prompt. Replace the “#.#.#.#” with your Pi’s IP address and enter the command:
+###2. Setup SSH
+
+We will be using the `ssh` protocol to communicate with our Pi over the local network.
+> SSH stands for Secure Shell and allows us to remotely log into our Pi and run commands.
+
+If you're on Linux of Mac, the `ssh` tool comes standard. If you're on Windows, you'll need a client. We recommend [Putty](http://www.putty.org/) which can be downloaded from putty.org.
+
+###3. (Lunix/Mac) SSH
+
+####a. Open a Terminal
+On your laptop, open up your favorite terminal (if you don't have a favorite, just use the built in Terminal app).
+
+####b. SSH
+Enter the command (replace `<ip_address>` with the IP address of the pi):
 
 ```
-$ ssh pi@#.#.#.#
+$ ssh pi@<ip_address>
 ```
 
-This will attempt to connect to your Pi through the specified IP address and login with the username ‘pi’. The first time you login to your Pi, you will receive a message similar to the following:
+This will attempt to connect to your Pi using the specified IP address and login with the username ‘pi’. 
+
+####c. Accept fingerprint
+The first time you login to your Pi, you will receive a message similar to the following:
 
 ```
 $ ssh pi@10.1.101.91
@@ -27,6 +46,35 @@ The authenticity of host '10.1.101.91 (10.1.101.91)'
 Enter `yes`, then enter your password. 
 > The default password is `raspberry` for a new Pi. 
 
+After you get here, you can skip to **After connecting**.
+
+###3. (Windows) SSH with PuTTY
+
+####a. Install PuTTY
+If you do not have PuTTY or a similar tty application for Winodws, you'll need to install it from http://www.putty.org/
+
+####b. Configure PuTTY session
+Start the `putty.exe` and in the "Host Name (or IP address)" we'll put the Pi's IP address. Leave the "Port" set to 22 (this is the default port for the SSH protocol).
+
+![Putty Configuration](img/putty_config.png)
+
+>image sourced from [adafruit](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-6-using-ssh/ssh-under-windows)
+
+####c. Open PuTTY session
+After configuring the session with the Pi's IP address, click "Open". If this is your first time connecting to the Pi from your computer, you'll see a Security Alert similar to the following asking you to verify and accept the Pi's RSA fingerprint. Click "Yes".
+
+![Putty Security Alert](img/putty_warning.png)
+
+>image sourced from [adafruit](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-6-using-ssh/ssh-under-windows)
+
+####d. Successful SSH
+After connecting, you should see a terminal-like window similar to the following
+
+![Putty Success](img/putty_connected.png)
+
+>image sourced from [adafruit](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-6-using-ssh/ssh-under-windows)
+
+###After connecting
 If successful, you will see something similar to the following on your screen:
 
 ```
