@@ -54,14 +54,14 @@ After you get here, you can skip to **After connecting**.
 If you do not have PuTTY or a similar tty application for Winodws, you'll need to install it from http://www.putty.org/
 
 ####b. Configure PuTTY session
-Start the `putty.exe` and in the "Host Name (or IP address)" we'll put the Pi's IP address. Leave the "Port" set to 22 (this is the default port for the SSH protocol).
+Start the `putty.exe` and in the "Host Name (or IP address)" we'll put the Pi's IP address. Leave the "Port" set to 22 (this is the default port for the SSH protocol). After configuring, click "Open".
 
 ![Putty Configuration](img/putty_config.png)
 
 >image sourced from [adafruit](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-6-using-ssh/ssh-under-windows)
 
-####c. Open PuTTY session
-After configuring the session with the Pi's IP address, click "Open". If this is your first time connecting to the Pi from your computer, you'll see a Security Alert similar to the following asking you to verify and accept the Pi's RSA fingerprint. Click "Yes".
+####c. Accept fingerprint
+If this is your first time connecting to the Pi from your computer, you'll see a Security Alert similar to the following asking you to verify and accept the Pi's RSA fingerprint. Click "Yes".
 
 ![Putty Security Alert](img/putty_warning.png)
 
