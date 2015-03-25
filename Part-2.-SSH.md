@@ -16,7 +16,7 @@ The IP address will be returned to the screen. Write your IP address down for us
 We will be using the `ssh` protocol to communicate with our Pi over the local network.
 > SSH stands for Secure Shell and allows us to remotely log into our Pi and run commands.
 
-If you're on Linux of Mac, the `ssh` tool comes standard. If you're on Windows, you'll need a client. We recommend [Putty](http://www.putty.org/) which can be downloaded from putty.org.
+If you're on Linux of Mac, the `ssh` tool comes standard. If you're on Windows, you'll need a client. We recommend [PuTTY](http://www.putty.org/) which can be downloaded from putty.org.
 
 ### Step 3: (Lunix/Mac) SSH
 
