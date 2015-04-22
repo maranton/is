@@ -17,15 +17,16 @@ io.setwarnings(False)
 io.setmode(io.BCM)
 
 button_io_pin = 23
-io.setup(button_io_pin, io.IN) # Specify that button_io_pin will be an input prevInput = 0
+io.setup(button_io_pin, io.IN) # Specify that button_io_pin will be an input
+button_previous_input = 0
 
 while True:
     # Get the state of the button input
     button_input = io.input(button_io_pin)
-    if (button_input != prevInput):
+    if (button_input != button_previous_input):
         # When the button changes state, print its value
         print button_input
-        prevInput = button_input
+        button_previous_input = button_input
 ```
 
 The lines that begin with ‘#’ are comment lines, a great way to document code. This script imports a special library, RPi.GPIO, that allows you to read and write the Pi’s I/O pins. We set the input button to pin 23 on line 9, which matches our breadboard circuit. Pin 23 is set to an input pin on line 10. The “while loop” on line 13 will run until you kill the script and read the state of pin 23 and print its value only when it changes.
