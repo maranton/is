@@ -1,6 +1,6 @@
 We have driven a button input into our Pi. Now let’s control a LED output from our Pi. Make the following additions to your breadboard (after you have powered down your Pi!!).
 
-![Breadboard](img/breadboard-5.png)
+![Breadboard](img/breadboard-5a.png)
 
 > Make sure to connect the long end of the LED to the 220 ohm resistor and the short end of the LED to pin 17 of the Pi.
 
