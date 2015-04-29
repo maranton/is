@@ -2,7 +2,7 @@ We have driven a button input into our Pi. Now let’s control a LED output from
 
 ![Breadboard](img/breadboard-5.png)
 
-> Make sure to connect the short end of the LED to the 220 ohm resistor and the long end of the LED to pin 17 of the Pi.
+> Make sure to connect the long end of the LED to the 220 ohm resistor and the short end of the LED to pin 17 of the Pi.
 
 The Python script that we will use for this circuit will turn the LED on and off when a button is pressed. Once your circuit is built, power your Pi back on, ssh into it, and cd into the piot directory. The Python script we will use is called `button-led.py`.
 
