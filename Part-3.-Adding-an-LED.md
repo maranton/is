@@ -31,7 +31,7 @@ io.setup(led_io_pin, io.OUT)
 # Specifies that button_io_pin will be an input
 io.setup(button_io_pin, io.IN)
 
-button_on = False
+button_toggle = True
 previous_button_input = 0
 
 while True:
@@ -41,11 +41,11 @@ while True:
     # Debounce the button
     if (previous_button_input == 0 and button_input):
         # Toggle the button on and off
-        button_on = not button_on
+        button_toggle = not button_toggle
     previous_button_input = button_input
     sleep(0.05)
     
-    if button_on:
+    if button_toggle:
         # Turn the LED on
         io.output(led_io_pin, io.HIGH)
     else:
