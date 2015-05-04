@@ -6,4 +6,4 @@ The breadboard used in this workshop has a breakout board attached to it that a 
 
 [<< Part 3. Buttons & Lights](Part-3.-Buttons-&-Lights) - [Part 3. Input Button >>](Part-3.-Input-Button)
 
-> NOTE: The Raspberry Pi is a 3.3V (3V3) device, and the breakout board allow you to connect directly to the CPU on the Pi. You should only connect low power 3V3 devices directly to your Pi. Anything else (5V, or more than 48 mA total) could damage your Pi, so be careful what you attach!
+> NOTE: The Raspberry Pi is a 3.3V (3V3) device, and the breakout board allows you to connect directly to the CPU on the Pi. You should only connect low power 3V3 devices directly to your Pi. Anything else (5V, or more than 48 mA total) could damage your Pi, so be careful what you attach!
