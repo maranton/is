@@ -7,10 +7,13 @@ $ ls
 This will “list” everything in the current directory.
 
 ```
-￼pi@raspberrypi ~ $ lsDesktop piot python_games streamer
+￼pi@raspberrypi ~ $ ls
+Desktop piot python_games streamer
 ```
 
-For the Pi that you are using at the workshop, there will be a directory called “piot” listed (if you are repeating this workshop at home on a new Pi, you will need to create this directory using the command “mkdir piot”). We want to navigate into this directory by typing the following:```
+For the Pi that you are using at the workshop, there will be a directory called “piot” listed (if you are repeating this workshop at home on a new Pi, you will need to create this directory using the command “git clone https://github.com/InitialState/piot-101.git”). We want to navigate into this directory by typing the following:
+
+```
 $ cd piot
 ```
 
