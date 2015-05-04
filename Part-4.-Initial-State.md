@@ -4,9 +4,12 @@ We not only want to see what the current temperature is from our DS18B20 sensor,
 Go to [https://www.initialstate.com/app#/register/](https://www.initialstate.com/app#/register/) and create a new account.
 
 ###Step 2: Install the ISStreamer
-Install the Initial State Python module onto your Pi. At a command prompt (don’t forget to SSH into your Pi first), run the following command:
+Install the Initial State Python module onto your Pi:
+
+At a command prompt (don’t forget to SSH into your Pi first), run the following command:
 
 ```
+$ cd /home/pi/
 $ \curl -sSL https://get.initialstate.com/python -o - | sudo bash
 ```
 
@@ -16,9 +19,23 @@ After Step 2 you will see something similar to the following output to the scree
 
 ```
 pi@raspberrypi ~ $ \curl -sSL https://get.initialstate.com/python -o - | sudo bash
-Password:Beginning ISStreamer Python Easy Installation!This may take a couple minutes to install, grab some coffee :)But don't forget to come back, I'll have questions later!
-Found easy_install: setuptools 1.1.6Found pip: pip 1.5.6 from /Library/Python/2.7/site-packages/pip-1.5.6- py2.7.egg (python 2.7)pip major version: 1pip minor version: 5ISStreamer found, updating...Requirement already up-to-date: ISStreamer in /Library/Python/2.7/site-packagesCleaning up...Do you want automagically get an example script? [y/N]
+Password:
+Beginning ISStreamer Python Easy Installation!
+This may take a couple minutes to install, grab some coffee :)
+But don't forget to come back, I'll have questions later!
+
+Found easy_install: setuptools 1.1.6
+Found pip: pip 1.5.6 from /Library/Python/2.7/site-packages/pip-1.5.6- py2.7.egg (python 2.7)
+pip major version: 1
+pip minor version: 5
+ISStreamer found, updating...
+Requirement already up-to-date: ISStreamer in /Library/Python/2.7/site-packages
+Cleaning up...
+Do you want automagically get an example script? [y/N]
 ```
+
+_(if you installed Raspbian yourself, the output will be different and take longer as the extra components are installed)_
+
 When prompted to automatically get an example script, type y. This will create a test script that we can run to ensure that we can stream data to Initial State from our Pi. You will be prompted:
 
 ```
@@ -30,7 +47,11 @@ You can either type `./is_example.py` or hit enter to accept the default.
 You will be prompted for your username and password that you just created when you registered your Initial State account. Enter both and the installation will complete.
 
 ###Step 4: Access Keys
-Let’s take a look at the example script that was created.```
+Let’s take a look at the example script that was created.
+
+
+
+```
 $ nano is_example.py
 ```
 
