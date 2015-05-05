@@ -60,5 +60,8 @@ Run this script and press the button to see if the LED turns on and off.
 ```
 $ sudo python button-led.py
 ```
+> Tip: if your LED will not turn on, you may have it turned around backwards. Make sure the long end of the LED is connected to the 220 ohm resistor and the short end of the LED is connected to pin 17 of the Pi.
+
+> Tip: if your LED is really dim, you may have used a 10K ohm resistor instead of the 220 ohm resistor. 
 
 [<< Part 3: Reading the Button](Part-3.-Reading-the-Button) - [Part 4: IoT Temperature Sensor >>](Part-4.-IoT-Temperature-Sensor)
