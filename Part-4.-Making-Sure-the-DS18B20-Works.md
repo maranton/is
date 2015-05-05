@@ -16,7 +16,8 @@ Restart your Pi for the changes to take effect.
 $ sudo reboot
 ```
 
-To start the temperature sensor read interface we need to run twocommands. Go to a command prompt on your Pi or SSH into your Pi. Type the following commands:
+To start the temperature sensor read interface we need to run two
+commands. Go to a command prompt on your Pi or SSH into your Pi. Type the following commands:
 
 ```
 $ sudo modprobe w1-gpio
@@ -37,5 +38,8 @@ a2 01 4b 46 7f ff 0e 10 d8 t=26125
 ```
 
 The number after “t=” is the number we want. This is the temperature in 1/1000 degrees Celsius (in the example above, the temperature is 26.125 C). We just need a simple program that reads this file and parses out that number. We will get to that in just a second.
+
+> Tip: if you don't see a sub-directory that starts with "28-" but see multiple sub-directories that start with "00-", you might have the resistor plugged into ground instead of into power. If your circuit is wired correctly and you continue to get "00-" sub-directories, you might have a bad temperature sensor. 
+
 
 [<< Part 4: Hardware Setup](Part-4.-Hardware-Setup) - [Part 4: Initial State >>](Part-4.-Initial-State)
