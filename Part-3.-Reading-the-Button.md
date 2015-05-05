@@ -54,4 +54,7 @@ Pressing the button over and over should result in a 1 and a 0 being printed to 
 
 To stop the script, press `CTRL`+`c`.
 
+> Tip: if your button is not working, make sure it is pressed firmly into the breadboard. The canakit buttons can be a little difficult to seat into the breadboard and make a good connection.
+
+
 [<< Part 3: Input Button](Part-3.-Input-Button) - [Part 3: Adding an LED >>](Part-3.-Adding-an-LED)
