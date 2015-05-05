@@ -49,6 +49,8 @@ while True:
 
 You need to put your Initial State access key on line 6 in place of `PUT_YOUR_ACCESS_KEY_HERE` (copy the streaming key to your clipboard from 'My Account' and paste it into the code in nano in your terminal).
 
+> Tip: if you are using Putty, you can paste by right clicking the mouse.
+
 Line 6 will create a bucket named “Temperature Stream” in your Initial State account (assuming you correctly specified your access_key on this same line). Lines 8 through 30 of this script simply interface with the DS18B20 sensor to read its temperature from the w1_slave file we discussed earlier. The read_temp_raw() function on line 15 reads the raw w1_slave file. The read_temp() function on line 21 parses out the temperature from that file. Line 34 calls these functions to get the current temperature. Line 35 converts the temperature from Celsius to Fahrenheit. Lines 35 and 36 streams the temperature to your Initial State account. Line 37 pauses the script for 0.5 seconds, setting how often the temperature sensor will be read and streamed.
 
 > Tip: a detailed explanation of how the DS18B20 works can be found at [https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20- temperature-sensing/hardware](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20- temperature-sensing/hardware)
