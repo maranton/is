@@ -9,6 +9,8 @@ Go to your Pi’s command prompt by clicking on the LXTerminal icon at the top t
 $ hostname -I
 ```
 
+> **Bash Beginner Tip**: The `$` sign in the command above denotes the start of a bash command, you don't actually type this when typing in bash. In fact, if you look at your raspberry pi's terminal or your other machine's terminal, you'll see the dollar sign is already to the left of the cursor. If you ever see a `#` instead of a dollar sign before the bash command, it means that the current bash context has elevated, super user privileges, similar to prefixing each command with `sudo`.
+
 The IP address will be returned to the screen. Write your IP address down for use throughout this workshop. In the screenshot above, the Pi’s IP address is 10.1.101.91.
 
 ### Step 2: Setup SSH
@@ -79,8 +81,13 @@ If successful, you will see something similar to the following on your screen:
 
 ```
 Linux raspberrypi 3.18.5-v7+ #225 SMP PREEMPT Fri Jan 30 18:53:55 GMT 2015 armv7l
-The programs included with the Debian GNU/Linux system are free software; the exact distribution terms for each program are described in theindividual files in /usr/share/doc/*/copyright.
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent permitted by applicable law.Last login: Wed Feb 25 22:24:20 2015 from 10.0.0.41pi@raspberrypi ~ $
+
+The programs included with the Debian GNU/Linux system are free software; the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent permitted by applicable law.
+Last login: Wed Feb 25 22:24:20 2015 from 10.0.0.41
+pi@raspberrypi ~ $
 ```
 
 This means that you are now remotely connected to your Pi and ready to tell it what to do.
