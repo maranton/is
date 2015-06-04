@@ -46,7 +46,8 @@ The authenticity of host '10.1.101.91 (10.1.101.91)'
 ```
 
 Enter `yes`, then enter your password. 
-> The default password is `raspberry` for a new Pi. 
+> The default password is `raspberry` for a new Pi.
+> The default admin username is `pi`
 
 After you get here, you can skip to **After connecting**.
 
