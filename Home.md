@@ -2,6 +2,7 @@
 ---
 
 #Introduction to the Workshop
+![Piot Logo](https://github.com/InitialState/piot-101/wiki/piot_logo.png)
 
 The Raspberry Pi (http://www.raspberrypi.org) is a low cost, credit-card sized computer that can be used to build amazing things. The Internet of Things (IoT) is the exploding network of objects, sensors, and "things" connected to the internet. This hands-on workshop will teach you the basics of using a Raspberry Pi and how to use a Pi to create an Internet of Things application.
 
