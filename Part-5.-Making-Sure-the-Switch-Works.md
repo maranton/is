@@ -57,5 +57,7 @@ $ sudo python door.py
 
 If the switch and magnet are sufficiently far apart, then you should see “Open” start printing down the screen. Bring the two together (less than an inch apart) and you should see “Close” print once. Move them apart and “Open” will print again. Now we’re in business!
 
+--
+
 
 [<< Part 5: Hardware Setup](Part-5.-Hardware-Setup) - [Part 5: A Live Security Data Stream](Part-5.-A-Live-Security-Data-Stream)
