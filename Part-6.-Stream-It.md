@@ -127,3 +127,5 @@ Temperature: 45.8366 F
 Temperature: 44.825 F
 Temperature: 43.925 F
 ```
+
+[Part 6: Building Your Dashboard >>](Part-6.-Building-Your-Dashboard)
