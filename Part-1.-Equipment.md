@@ -1,7 +1,7 @@
 Here is a list of all the equipment that we'll be using in this workshop with some links.
 
 - **CanaKit Raspberry Pi 2 Ultimate Starter Kit**
-    ([http://www.canakit.com/raspberry-pi-starter-ultimate-kit.html](http://www.canakit.com/raspberry-pi-starter-ultimate-kit.html)). This workshop will utilize the following parts from this kit:
+    ([http://www.amazon.com/CanaKit-Raspberry-Ultimate-Starter-Components/dp/B00G1PNG54)). This workshop will utilize the following parts from this kit:
     - Raspberry Pi 2 Model B 1 GB
     - 8 GB MicroSD Card
     - Raspberry Pi 2 Case
