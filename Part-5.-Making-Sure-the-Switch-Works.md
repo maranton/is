@@ -60,4 +60,4 @@ If the switch and magnet are sufficiently far apart, then you should see “Open
 --
 
 
-[<< Part 5: Hardware Setup](Part-5.-Hardware-Setup) - [Part 5: A Live Security Data Stream](Part-5.-A-Live-Security-Data-Stream)
+[<< Part 5: Hardware Setup](Part-5.-Hardware-Setup) - [Part 5: A Live Security Data Stream >>](Part-5.-A-Live-Security-Data-Stream)
