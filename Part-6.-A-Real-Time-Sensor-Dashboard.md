@@ -9,6 +9,7 @@ This is the fun section where we put everything we learned in the previous secti
 This Section will cover:
 
 - [Hardware Setup](Part-6.-Hardware-Setup)
+- [Stream It](Part-6.-Stream-It)
 - [Building Your Dashboard](Part-6.-Building-Your-Dashboard)
 - [Conclusion and Next Steps](Part-6.-Conclusion-And-Next-Steps)
 
