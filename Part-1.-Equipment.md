@@ -1,7 +1,7 @@
 Here is a list of all the equipment that we'll be using in this workshop with links to where you can purchase each piece. The LCD + cables are optional if you already have a display that you want to use. The keyboard+mouse is also optional if you already have one to use.
 
 - **CanaKit Raspberry Pi 2 Ultimate Starter Kit ($85)**
-    ([http://www.amazon.com/CanaKit-Raspberry-Ultimate-Starter-Components/dp/B00G1PNG54)). This workshop will utilize the following parts from this kit:
+    ([http://www.amazon.com/CanaKit-Raspberry-Ultimate-Starter-Components/dp/B00G1PNG54](http://www.amazon.com/CanaKit-Raspberry-Ultimate-Starter-Components/dp/B00G1PNG54)). This workshop will utilize the following parts from this kit:
     - Raspberry Pi 2 Model B 1 GB
     - 8 GB MicroSD Card
     - Raspberry Pi 2 Case
