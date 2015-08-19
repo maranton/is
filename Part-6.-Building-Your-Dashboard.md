@@ -130,4 +130,4 @@ Temperature: 43.925 F
 
 
 
-[<< Part 6: Hardware Setup](Part-6.-Hardware-Setup) - [Part 6: Conclusion and Next Steps >>](Part-6.-Conclusion-And-Next-Steps)
+[<< Part 6: Stream It](Part-6.-Stream-It) - [Part 6: Conclusion and Next Steps >>](Part-6.-Conclusion-And-Next-Steps)
