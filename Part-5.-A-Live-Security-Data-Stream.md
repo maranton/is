@@ -10,4 +10,5 @@ Go back to your Initial State account in your web browser and look for a new dat
 
 ![Locker Sensor in Waves](img/locker-waves.png)
 
-[<< Part 5: Making Sure the Switch Works](Part-5.-Making-Sure-the-Switch-Works)
+
+[<< Part 5: Making Sure the Switch Works](Part-5.-Making-Sure-the-Switch-Works) - [Part 6: A Real-Time Sensor Dashboard](Part-6.-A-Real-Time-Sensor-Dashboard)
