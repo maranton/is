@@ -1,18 +1,16 @@
-![Door Contact Sensor Breadboard](https://github.com/InitialState/piot-101/wiki/img/dashboard1.jpg)
+![Dashboard](https://github.com/InitialState/piot-101/wiki/img/dashboard1.jpg)
 
 ##Overview
 
-Another popular IoT project application is security. Personal surveillance camera systems and motion detectors are becoming increasingly easy and cheap to setup. We’re going to take a step in that direction by using a magnetic contact switch as a door sensor.
+This is the fun section where we put everything we learned in the previous sections together to create something that really starts to show the power of the Internet of Things. You will learn how easy it is to create a custom dashboard that lets you see all of your sensor/IoT data at-a-glance. You will learn how to instantly turn your sensor/IoT data into bar charts, line graphs, pie charts, histograms, etc. You will even learn how to make your sensor/IoT devices speak emojis 😛. If you got this far, you would be crazy to skip this section. 
 
-We learned how to collect data from a temperature sensor in Part 4 – collecting from the door sensor is even more simple. One side of the sensor has a switch that is closed whenever the other side, which has a magnet, is brought within range. You can detect whether or not the switch is closed, which means that we can see if something (like a door or lid) is open or closed.
-
-> **NOTE:** To ensure you have the latest code samples, ensure you've performed a `git pull` in your code directory. If you are working out of your own fork, make sure you merge any upstream changes.
+> **NOTE:** To ensure you have the latest code samples, ensure you've performed a `git pull` in your code directory. 
 
 This Section will cover:
 
-- [Hardware Setup](Part-5.-Hardware-Setup)
-- [Making Sure the Switch Works](Part-5.-Making-Sure-the-Switch-Works)
-- [A Live Security Data Stream](Part-5.-A-Live-Security-Data-Stream)
+- [Hardware Setup](Part-6.-Hardware-Setup)
+- [Building Your Dashboard](Part-6.-Building-Your-Dashboard)
+- [Conclusion and Next Steps](Part-6.-Conclusion-And-Next-Steps)
 
 
-[<< Part 4: A Live IoT Data Stream](Part-4.-A-Live-IoT-Data-Stream) - [Part 5: Hardware Setup >>](Part-5.-Hardware-Setup)
+[<< Part 5: A Live Security Data Stream](Part-5.-A-Live-Security-Data-Stream) - [Part 6: Hardware Setup >>](Part-6.-Hardware-Setup)
