@@ -1,4 +1,4 @@
-## PiOT 101: Raspberry Pi + Internet of Things
+## piot 101: Raspberry Pi + Internet of Things
 
 - [Introduction](Home)
 - [**Part 1**: Unboxing & Initial Setup](Part-1.-Unboxing-&-Setup)
