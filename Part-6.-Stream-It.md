@@ -104,7 +104,7 @@ if __name__ == "__main__":
     main()            
 ```
 
-Edit this file and place your access key in line 11 where it says "PUT_YOUR_ACCESS_KEY_HERE" (otherwise, you won't be streaming any sensor data into your account, and the rest of this section won't be very fun).
+Edit this file and place your access key in line 11 where it says "PUT_YOUR_ACCESS_KEY_HERE" (otherwise, you won't be streaming any sensor data into your account, and the rest of this section won't be very fun). You only have to modify line 11 as it assigns your access key to a global variable that is used in the Streamer constructor on line 62.
 
 Run the script
 
