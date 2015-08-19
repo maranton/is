@@ -1,1 +1,1 @@
-[<< Part 6: Hardware Setup](Part-6.-Hardware-Setup)
+[<< Part 6: Building Your Dashboard](Part-6.-Building-Your-Dashboard)
