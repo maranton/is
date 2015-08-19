@@ -1,4 +1,4 @@
-![Door Contact Sensor Breadboard](img/IMG_3910.JPG)
+![Door Contact Sensor Breadboard](https://github.com/InitialState/piot-101/wiki/img/dashboard1.jpg)
 
 ##Overview
 
