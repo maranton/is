@@ -1,4 +1,4 @@
-#PiOT 101: Raspberry Pi + Internet of Things
+#piot 101: Raspberry Pi + Internet of Things
 ---
 
 #Introduction to the Workshop
