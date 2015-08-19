@@ -1,1 +1,1 @@
-[<< Part 6: Hardware Setup](Part-6.-Hardware-Setup) - [Part 6: Hardware Setup >>](Part-6.-Hardware-Setup)
+[<< Part 6: Hardware Setup](Part-6.-Hardware-Setup) - [Part 6: Conclusion and Next Steps >>](Part-6.-Conclusion-And-Next-Steps)
