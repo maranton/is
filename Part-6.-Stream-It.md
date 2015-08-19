@@ -112,7 +112,7 @@ Run the script
 $ sudo python sensors.py
 ```
 
-This script outputs the sensor values to the prompt. You should see something similar to the following:
+This script streams the data from both sensors to Initial State and outputs the sensor values to the prompt. The prompt output will help you troubleshoot any issues you might have with wiring your circuit. You should see something similar to the following:
 
 ```
 Temperature: 63.5 F
