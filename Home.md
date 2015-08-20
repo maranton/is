@@ -19,4 +19,6 @@ experience required)
 - build multiple live Internet of Things projects that stream data to a cloud
 service
 
+If you get stuck, send us an email at [support@initialstate.com](mailto:support@initialstate.com), and we will be happy to help.
+
 [Part 1: Unboxing & Setup >>](Part 1. Unboxing & Setup)
