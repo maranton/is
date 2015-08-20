@@ -23,3 +23,8 @@
     - [Hardware Setup](Part-5.-Hardware-Setup)
     - [Making Sure the Switch Works](Part-5.-Making-Sure-the-Switch-Works)
     - [A Live Security Data Stream](Part-5.-A-Live-Security-Data-Stream)
+- [**Part 6**: A Real Time Sensor Dashboard](Part-6.-A-Real-Time-Sensor-Dashboard)
+    - [Hardware Setup](Part-6.-Hardware-Setup)
+    - [Stream It](Part-6.-Stream-It)
+    - [Building Your Dashboard](Part-6.-Building-Your-Dashboard)
+    - [Conclusion and Next Steps](Part-6.-Conclusion-And-Next-Steps)
