@@ -10,8 +10,4 @@ Show us the dashboard you created in Part 6, and we will send you a free Initial
 
 ![Sharing](https://s3.amazonaws.com/uploads.uservoice.com/assets/083/500/348/original/Share.gif?AWSAccessKeyId=14D6VH0N6B73PJ6VE382&Expires=1503308801&Signature=jBrDC2YYsv1zPbAsfTkPECzPh9I%3D)
 
-## Next Steps
-
-
-
 [<< Part 6: Building Your Dashboard](Part-6.-Building-Your-Dashboard)
