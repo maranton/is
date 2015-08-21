@@ -18,6 +18,7 @@ required)
 experience required)
 - build multiple live Internet of Things projects that stream data to a cloud
 service
+- build a real-time dashboard that displays all of your sensor data in one place
 
 If you get stuck, send us an email at [support@initialstate.com](mailto:support@initialstate.com), and we will be happy to help.
 
