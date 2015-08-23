@@ -20,6 +20,6 @@ experience required)
 service
 - build a real-time dashboard that displays all of your sensor data in one place
 
-If you get stuck, send us an email at [support@initialstate.com](mailto:support@initialstate.com), and we will be happy to help.
+If you get stuck, send us an email at [piot@initialstate.com](mailto:piot@initialstate.com), and we will be happy to help.
 
 [Part 1: Unboxing & Setup >>](Part 1. Unboxing & Setup)
