@@ -1,7 +1,7 @@
 ###Step 1: Insert into Case
 
 _Never touch an exposed circuit board without being properly grounded_.
-Place the Raspberry Pi inside the clear plastic CanaKit case. This will protect the Raspberry Pi from electrostatic discharge (ESD). 
+Place the Raspberry Pi inside the clear plastic CanaKit case. This will protect the Raspberry Pi from electrostatic discharge (ESD). Here's a video of someone putting together a similar case to the one in your kit: www.canakit.com/pi-case
 
 ###Step 2: Insert microSD card
 
