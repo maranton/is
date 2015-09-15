@@ -54,7 +54,7 @@ After you get here, you can skip to **After connecting**.
 ### Step 3: (Windows) SSH with PuTTY
 
 ####a. Install PuTTY
-If you do not have PuTTY or a similar tty application for Winodws, you'll need to install it from http://www.putty.org/
+If you do not have PuTTY or a similar tty application for Windows, you'll need to install it from http://www.putty.org/
 
 ####b. Configure PuTTY session
 Start the `putty.exe` and in the "Host Name (or IP address)" we'll put the Pi's IP address. Leave the "Port" set to 22 (this is the default port for the SSH protocol). After configuring, click "Open".
